@@ -1,0 +1,57 @@
+Updated Folder Structure:
+========================
+
+src/
+├── types/
+│   └── index.ts                      # All TypeScript interfaces/types
+├── services/
+│   └── KnowledgeBaseService.ts       # Knowledge base service with embeddings (updated)
+├── features/
+│   ├── home/
+│   │   └── HomePage.tsx              # Home page with overview
+│   ├── tracker/
+│   │   └── WeekTracker.tsx          # Pregnancy week tracker (handles all 40+ weeks)
+│   ├── medications/
+│   │   └── MedicationChecker.tsx    # Medication safety checker
+│   ├── symptoms/
+│   │   └── SymptomTracker.tsx       # Symptom tracking and lookup
+│   ├── nutrition/
+│   │   └── NutritionPlanner.tsx     # Nutrition requirements and planning
+│   ├── emergency/
+│   │   └── EmergencyGuide.tsx       # Emergency symptoms guide
+│   ├── chat/
+│   │   ├── ChatAssistant.tsx        # Main chat component UI
+│   │   └── ChatService.ts           # OpenAI integration service
+│   ├── labor/                       # NEW
+│   │   └── LaborDeliveryGuide.tsx   # Labor signs, stages, pain management, FAQ
+│   ├── hospital/                    # NEW
+│   │   └── HospitalPreparation.tsx  # Interactive hospital bag checklist, birth plan
+│   ├── gear/                        # NEW
+│   │   └── BabyGearGuide.tsx       # Car seat, crib, carrier safety guide
+│   ├── preparation/                 # NEW
+│   │   └── LaborPreparation.tsx     # Kegel exercises, breathing, relaxation
+│   └── info/                        # NEW
+│       └── TravelGuidelines.tsx     # Travel safety during pregnancy
+├── components/
+│   ├── layout/
+│   │   ├── Header.tsx               # App header
+│   │   ├── BottomNavigation.tsx     # Bottom navigation bar (5 tabs)
+│   │   └── HamburgerMenu.tsx        # NEW - Left side menu for additional sections
+│   └── modals/
+│       └── DueDateModal.tsx         # Due date input modal (updated - no date restrictions)
+├── App.tsx                          # Main app component (updated with new sections)
+├── main.jsx                         # Entry point
+└── index.css                        # Styles
+
+public/
+└── knowledgeBase.json               # Knowledge base data (fully utilized)
+
+Root files (unchanged):
+- index.html
+- package.json
+- postcss.config.js
+- tailwind.config.js
+- vite.config.js
+- vercel.json
+- .env
+- .gitignore

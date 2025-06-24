@@ -1,0 +1,856 @@
+{
+  "pregnancyKnowledgeGraph": {
+    "nutritionalRequirements": {
+      "dailyMacros": [
+        { "nutrient": "Folic Acid", "amount": "600-800", "unit": "mcg", "category": "vitamin" },
+        { "nutrient": "Calcium", "amount": "1000-2500", "unit": "mg", "category": "mineral" },
+        { "nutrient": "Protein", "amount": "88", "unit": "gm", "category": "macronutrient" },
+        { "nutrient": "Iron", "amount": "27", "unit": "mg", "category": "mineral" },
+        { "nutrient": "Vitamin D", "amount": "600", "unit": "IUs", "category": "vitamin" }
+      ],
+      "weightGainRecommendations": [
+        { "prePregnancyBMI": "Underweight", "bmiRange": "<18.5", "recommendedGain": "28-40", "unit": "pounds" },
+        { "prePregnancyBMI": "Healthy weight", "bmiRange": "18.5-24.9", "recommendedGain": "25-35", "unit": "pounds" },
+        { "prePregnancyBMI": "Overweight", "bmiRange": "25-29.9", "recommendedGain": "15-25", "unit": "pounds" },
+        { "prePregnancyBMI": "Obese", "bmiRange": "≥30", "recommendedGain": "11-20", "unit": "pounds" }
+      ],
+      "additionalInfo": [
+        "Steady weight gain is more important in the second and third trimesters - typically 3 to 4 pounds a month until delivery",
+        "You don't need additional calories each day until the second trimester",
+        "Avoid too many salty foods"
+      ]
+    },
+    "foodSafety": {
+      "seafoodGuidelines": {
+        "safe": ["Rawas"],
+        "unsafe": ["Bangda (बांगडा)", "Pamplet (Mumbai)", "Surmai (सुरमाई)", "Katla (कटला)", "Rohu (रोहू)", "Swordfish", "Tilefish", "Tuna (bigeye, albacore)", "Mori (मोरी)", "Waghbeer (वाघबीर)"]
+      },
+      "avoidFoods": [
+        { "item": "Non-pasteurized dairy", "includes": ["home made yogurt"] },
+        { "item": "Caffeine", "includes": ["Tea", "carbonated beverages", "cocoa", "chocolate"] },
+        { "item": "Vitamin A supplements", "details": "Avoid preformed vitamin A (retinol). Beta carotene is safe. RDA is ~3,300 IU daily, typical diets provide 7,000-8,000 IU" }
+      ]
+    },
+    "morningSicknessManagement": {
+      "whatToEat": ["Bland, dry, easy-to-digest, low-fat foods", "Protein-rich foods", "Ginger-based foods (e.g., ginger lollipops)"],
+      "avoidFoods": ["Greasy foods", "Spicy foods", "Fatty foods"],
+      "eatingTips": ["Eat a few soda crackers or dry toast before getting out of bed", "Snack often instead of eating 3 large meals", "Don't let your stomach go empty"],
+      "hydrationTips": ["Sip water or ginger ale regularly", "Suck on hard candy, ice chips, or ice pops"]
+    },
+    "pregnancyTimeline": {
+      "weeks1to4": {
+        "trimester": "First",
+        "title": "Early Pregnancy",
+        "commonSymptoms": [
+          { "symptom": "Missed period", "status": "First sign of pregnancy" },
+          { "symptom": "Implantation bleeding", "status": "Light spotting may occur" },
+          { "symptom": "Breast tenderness", "status": "Hormonal changes beginning" }
+        ]
+      },
+      "weeks5to8": {
+        "trimester": "First",
+        "title": "Early Development",
+        "commonSymptoms": [
+          { "symptom": "Morning sickness", "status": "May begin around week 6" },
+          { "symptom": "Fatigue", "status": "Extreme tiredness is common" },
+          { "symptom": "Frequent urination", "status": "Hormonal changes affect bladder" },
+          { "symptom": "Mood changes", "status": "Hormonal fluctuations" }
+        ]
+      },
+      "weeks9to12": {
+        "trimester": "First",
+        "title": "Third Month: Nearing End of First Trimester",
+        "commonSymptoms": [
+          { "symptom": "Morning sickness & nausea", "status": "Peaks now, often eases by weeks 13-14" },
+          { "symptom": "Fatigue & dizziness", "status": "Heart working harder, body making more blood" },
+          { "symptom": "Sleep troubles or vivid dreams", "status": "Normal, improves once nausea settles" },
+          { "symptom": "Breast soreness & body aches", "status": "Body growing and stretching" },
+          { "symptom": "Frequent bathroom trips", "status": "Uterus pressing on bladder" },
+          { "symptom": "Not gaining weight yet", "status": "Normal if nausea affects eating" },
+          { "symptom": "Vision slightly blurry", "status": "Harmless effect of fluid changes" }
+        ],
+        "exercise": {
+          "name": "Side plank",
+          "benefits": "Strengthens core muscles to support growing belly",
+          "instructions": ["Lie on your left side and raise yourself onto your left forearm", "Left shoulder directly above left elbow", "Rest right arm alongside body", "Hold position for several seconds then lower", "Do 5-10 times, repeat on other side"]
+        }
+      },
+      "weeks13to16": {
+        "trimester": "Second",
+        "title": "Early Second Trimester: The Golden Period",
+        "commonSymptoms": [
+          { "symptom": "Energy returning", "status": "Nausea and fatigue easing by week 14-15" },
+          { "symptom": "Nasal stuffiness & nosebleeds", "status": "Increased blood flow causes this" },
+          { "symptom": "Mild shortness of breath", "status": "Lungs working harder, completely normal" },
+          { "symptom": "Mild abdominal cramps", "status": "Uterus stretching, normal if not severe" },
+          { "symptom": "More vaginal discharge", "status": "Thin, white discharge prevents infection" },
+          { "symptom": "Skin changes", "status": "Darker patches, linea nigra may appear" },
+          { "symptom": "Heartburn & constipation", "status": "Slowed digestion is common" },
+          { "symptom": "Weight gain ~2-3 pounds", "status": "Everyone's pace is different" }
+        ],
+        "exercise": {
+          "name": "Back press",
+          "benefits": "Supports good posture during pregnancy",
+          "instructions": ["Stand with back against wall", "Feet shoulder-width apart, few inches from wall", "Press small of back against wall", "Hold for several seconds", "Repeat 5-10 times"]
+        }
+      },
+      "weeks17to20": {
+        "trimester": "Second",
+        "title": "The Joy of Baby's First Movements",
+        "commonSymptoms": [
+          { "symptom": "Baby kicks", "status": "First movements felt, like fluttering or bubbles" },
+          { "symptom": "Shortness of breath", "status": "Continues as lungs work harder" },
+          { "symptom": "Heartburn & constipation", "status": "May linger due to hormones and pressure" },
+          { "symptom": "Back pain & twinges", "status": "Posture changes and ligament stretching" },
+          { "symptom": "Feeling clumsy", "status": "Center of gravity shifting" },
+          { "symptom": "Nasal issues", "status": "Stuffiness, nosebleeds, bleeding gums persist" },
+          { "symptom": "Skin darkening", "status": "Especially face and nipples" },
+          { "symptom": "Weight gain", "status": "About 1 pound per week expected" }
+        ],
+        "exercise": {
+          "name": "Wall slide with ball",
+          "benefits": "Strengthens lower body and core for stable base",
+          "instructions": ["Stand with fitness ball between back and wall", "Feet shoulder-width apart", "Slide down wall to 90-degree angle", "Slowly slide back up", "Repeat 5-10 times"]
+        }
+      },
+      "weeks21to24": {
+        "trimester": "Second",
+        "title": "Mid-Second Trimester Progress",
+        "commonSymptoms": [
+          { "symptom": "Baby movements stronger", "status": "Flutters turn into gentle kicks" },
+          { "symptom": "Hormones shifting", "status": "Estrogen catching up to progesterone" },
+          { "symptom": "Braxton Hicks may start", "status": "Gentle practice contractions" },
+          { "symptom": "Breasts may leak colostrum", "status": "Body preparing to nourish baby" },
+          { "symptom": "Thin white discharge", "status": "Normal unless odor or irritation" },
+          { "symptom": "Weight gain continues", "status": "About 1 lb/week, small variations okay" }
+        ],
+        "exercise": {
+          "name": "Pelvic tilt with ball",
+          "benefits": "Safe way to strengthen abdominal muscles",
+          "instructions": ["Sit on floor with back against fitness ball", "Feet on floor, arms at sides", "Push small of back upward", "Hold for several seconds", "Return to start, repeat 5-10 times"]
+        }
+      },
+      "weeks25to28": {
+        "trimester": "Second",
+        "title": "Late Second Trimester",
+        "commonSymptoms": [
+          { "symptom": "Belly really growing", "status": "Baby has more room to stretch" },
+          { "symptom": "Baby very active", "status": "Kicks, rolls, punches stronger" },
+          { "symptom": "Mild heart palpitations", "status": "Usually harmless, mention to provider" },
+          { "symptom": "Skin changes on breasts", "status": "Tiny bumps around nipples normal" },
+          { "symptom": "Uterus rising higher", "status": "Halfway between navel and breasts" },
+          { "symptom": "Heartburn & constipation", "status": "Still common from hormones and pressure" },
+          { "symptom": "Back and pelvic pain", "status": "Ligaments stretching, joints loosening" }
+        ],
+        "exercise": {
+          "name": "Leg lift",
+          "benefits": "Strengthens lower body",
+          "instructions": ["Kneel on hands and knees", "Hands shoulder-width apart", "Lift right knee then straighten leg behind you", "Keep parallel to floor, don't arch back", "Repeat 5-10 times on both sides"]
+        }
+      },
+      "weeks29to32": {
+        "trimester": "Third",
+        "title": "Early Third Trimester",
+        "commonSymptoms": [
+          { "symptom": "More discomfort overall", "status": "Leg cramps, pelvic pressure, back pain, swollen ankles" },
+          { "symptom": "Uterus near rib cage", "status": "Causes breathlessness, fatigue, frequent urination" },
+          { "symptom": "Braxton Hicks increase", "status": "Still irregular but more noticeable" },
+          { "symptom": "Baby movements different", "status": "Less rolling, more strong jabs due to cramped space" },
+          { "symptom": "Blood volume at peak", "status": "Puffy face/eyelids, spider veins, hemorrhoids" },
+          { "symptom": "Hair looks thicker", "status": "Hormones keep it in growth phase" },
+          { "symptom": "Skin may itch", "status": "Stretching causes this, also possible PUPPP rash" },
+          { "symptom": "Hip/pelvic pain worsens", "status": "Joints loosening for birth" }
+        ],
+        "exercise": {
+          "name": "Low back stretch",
+          "benefits": "Relieves tension from arched lower back",
+          "instructions": ["Get on hands and knees", "Head in line with back", "Pull in stomach, round back slightly", "Hold several seconds, relax keeping back flat", "Repeat 5-10 times"]
+        },
+        "sleepingTips": {
+          "challenges": ["Growing belly", "Heartburn", "Back pain"],
+          "bestPosition": "Side-sleeping, especially left side for blood flow",
+          "setup": ["Lie on side with knees bent", "Pillow between knees", "Optional pillow under belly", "Consider full-body/maternity pillow"],
+          "note": "Don't stress if you wake on your back - just roll to side"
+        }
+      },
+      "weeks33to36": {
+        "trimester": "Third",
+        "title": "Ninth Month of Pregnancy",
+        "commonSymptoms": [
+          { "symptom": "Peak discomfort", "status": "Heavy anticipation and final prep" },
+          { "symptom": "Extreme fatigue", "status": "Poor sleep, body discomfort, muscle soreness" },
+          { "symptom": "Breathing may ease", "status": "If baby drops into pelvis (lightening)" },
+          { "symptom": "Baby usually drops", "status": "Eases breathing but increases bladder pressure" },
+          { "symptom": "Braxton Hicks vs true labor", "status": "BH irregular, true labor regular and stronger" },
+          { "symptom": "Cervix may start changing", "status": "Softening or dilating varies by person" },
+          { "symptom": "Vaginal zingers", "status": "Sharp pains common, not dangerous" },
+          { "symptom": "Skin changes continue", "status": "Varicose veins, stretch marks, itchy abdomen" }
+        ],
+        "exercise": {
+          "name": "Step-ups",
+          "benefits": "Strengthens lower body as base of support",
+          "instructions": ["Keep back straight", "Step up onto stool with both feet on center", "Step back down to start", "Alternate starting leg", "Do 5-10 times or until tired"]
+        }
+      },
+      "weeks37to40": {
+        "trimester": "Third",
+        "title": "Full Term - Your Baby Is Almost Here",
+        "commonSymptoms": [
+          { "symptom": "Birth can happen anytime", "status": "37-40 weeks is normal delivery range" },
+          { "symptom": "Lightening", "status": "Baby drops deeper into pelvis" },
+          { "symptom": "Braxton Hicks increase", "status": "Practice contractions preparing for labor" },
+          { "symptom": "Bloody show", "status": "Mucus plug may release days before labor" },
+          { "symptom": "Water may break", "status": "Trickle or gush, call provider immediately" },
+          { "symptom": "True labor signs", "status": "Regular contractions 5 min apart for 1 hour" },
+          { "symptom": "Weight changes", "status": "May gain little or lose 1-2 pounds" }
+        ],
+        "exercise": {
+          "name": "Wall pushup",
+          "benefits": "Strengthens shoulders, arms, chest, core for lifting baby",
+          "instructions": ["Face wall, hands at shoulder level", "Hands and feet shoulder-width apart", "Tighten core, slowly bend elbows", "Lower chest until chin near wall", "Hold briefly, return to start", "Repeat 5-10 times"]
+        },
+        "laborSigns": {
+          "lightening": {
+            "what": "Baby settles deeper into pelvis",
+            "when": "Few weeks before labor in first pregnancies",
+            "feel": ["Belly looks lower", "Easier breathing", "More bladder pressure", "Pelvic twinges"]
+          },
+          "braxtonHicks": {
+            "what": "Irregular, painless tightening of uterus",
+            "when": "Second/third trimesters, more near due date",
+            "feel": ["Tightening that comes and goes", "Not rhythmic or stronger", "More noticeable when touching belly"]
+          },
+          "bloodyShow": {
+            "what": "Release of mucus plug sealing cervix",
+            "when": "Days or hours before labor, or week+ before",
+            "feel": ["Pink, brownish, or blood-tinged discharge", "Thick or stringy mucus"]
+          }
+        }
+      },
+      "weeks40plus": {
+        "trimester": "Post-term",
+        "title": "When Baby's Overdue",
+        "definition": {
+          "lateTerm": "41 weeks",
+          "postterm": "42+ weeks"
+        },
+        "whyOverdue": [
+          "Uncertain last period date or early ultrasounds weren't done",
+          "First pregnancy",
+          "Previous overdue pregnancies",
+          "Family history of overdue pregnancies",
+          "Having a boy",
+          "Rarely, placenta or baby issues"
+        ],
+        "whatHappens": {
+          "continuedMonitoring": {
+            "description": "Your provider will monitor you and baby more closely",
+            "procedures": [
+              "Check baby's heartbeat (fetal monitoring)",
+              "Perform ultrasounds to assess baby's movement",
+              "Measure amniotic fluid levels",
+              "Evaluate your cervix for readiness"
+            ]
+          },
+          "membraneSweeping": {
+            "description": "Provider inserts finger into cervix and sweeps around inner edges",
+            "purpose": "Releases hormones (like oxytocin) to potentially kickstart labor",
+            "benefit": "Safe way to reduce need for induction"
+          },
+          "inductionRecommended": {
+            "timing": "Usually recommended after 41-42 weeks",
+            "reasons": [
+              "Health concerns for mother or baby",
+              "Baby size complications",
+              "Placenta aging",
+              "Meconium risk"
+            ]
+          }
+        },
+        "laborInduction": {
+          "methods": {
+            "cervixSoftening": "Prostaglandins medication to prepare cervix",
+            "waterBreaking": "Thin hook to rupture amniotic sac",
+            "contractions": "Pitocin IV to trigger or regulate contractions"
+          }
+        },
+        "waitingTips": [
+          "Stay active with gentle walks",
+          "Eat well and rest",
+          "Do relaxing activities",
+          "Talk out frustrations with your support system"
+        ],
+        "importantNote": "Going overdue is common and usually not dangerous with proper monitoring"
+      }
+    },
+    "exerciseByMonth": {
+      "month3": {
+        "weeks": "9-12",
+        "exercise": "Side plank",
+        "linkedToWeeks": "weeks9to12"
+      },
+      "month4": {
+        "weeks": "13-16",
+        "exercise": "Back press",
+        "linkedToWeeks": "weeks13to16"
+      },
+      "month5": {
+        "weeks": "17-20",
+        "exercise": "Wall slide with ball",
+        "linkedToWeeks": "weeks17to20"
+      },
+      "month6": {
+        "weeks": "21-24",
+        "exercise": "Pelvic tilt with ball",
+        "linkedToWeeks": "weeks21to24"
+      },
+      "month7": {
+        "weeks": "25-28",
+        "exercise": "Leg lift",
+        "linkedToWeeks": "weeks25to28"
+      },
+      "month8": {
+        "weeks": "29-32",
+        "exercise": "Low back stretch",
+        "linkedToWeeks": "weeks29to32"
+      },
+      "month9": {
+        "weeks": "33-36",
+        "exercise": "Step-ups",
+        "linkedToWeeks": "weeks33to36"
+      },
+      "month10": {
+        "weeks": "37-40",
+        "exercise": "Wall pushup",
+        "linkedToWeeks": "weeks37to40"
+      }
+    },
+    "symptomTroubleshooting": {
+      "categories": [
+        {
+          "category": "Vaginal Bleeding/Discharge",
+          "symptoms": [
+            {
+              "sign": "Slight spotting that goes away within a day",
+              "weekRanges": [
+                { "weeks": "1-12", "urgency": "Within 24 hrs", "action": "Monitor" },
+                { "weeks": "13-28", "urgency": "Same day", "action": "Contact provider" },
+                { "weeks": "29-40", "urgency": "Immediately", "action": "Call provider" }
+              ],
+              "severity": "low",
+              "note": "Based on week of pregnancy"
+            },
+            {
+              "sign": "Bleeding > 1 day",
+              "weekRanges": [
+                { "weeks": "1-12", "urgency": "Within 24 hrs", "action": "Contact provider" },
+                { "weeks": "13-28", "urgency": "Same day", "action": "Call provider" },
+                { "weeks": "29-40", "urgency": "Immediately", "action": "Emergency" }
+              ],
+              "severity": "medium"
+            },
+            {
+              "sign": "Heavy bleeding like a period",
+              "urgency": "Immediately",
+              "action": "Emergency care",
+              "severity": "high"
+            }
+          ]
+        },
+        {
+          "category": "Pain",
+          "symptoms": [
+            {
+              "sign": "Moderate/severe pelvic pain",
+              "urgency": "Immediately",
+              "action": "Emergency care",
+              "severity": "high"
+            },
+            {
+              "sign": "Any pelvic pain > 4 hrs",
+              "urgency": "Within 24 hrs",
+              "action": "Evaluate cause",
+              "severity": "medium"
+            },
+            {
+              "sign": "Pain with fever or bleeding",
+              "urgency": "Immediately",
+              "action": "Emergency care",
+              "severity": "high"
+            },
+            {
+              "sign": "Leg pain + redness/swelling",
+              "urgency": "Immediately",
+              "action": "Blood clot risk",
+              "severity": "high"
+            }
+          ]
+        },
+        {
+          "category": "Uterine Contractions",
+          "symptoms": [
+            {
+              "sign": "Less than 6 per hour, for 2+ hours",
+              "urgency": "Next visit",
+              "action": "Normal pattern",
+              "severity": "low"
+            },
+            {
+              "sign": "More than 6 per hour, for 2+ hours",
+              "urgency": "Immediately",
+              "action": "Preterm labor risk",
+              "severity": "high"
+            }
+          ]
+        },
+        {
+          "category": "Other Symptoms",
+          "symptoms": [
+            {
+              "sign": "Low mood or loss of joy",
+              "urgency": "Next visit",
+              "action": "Mental health check",
+              "severity": "low"
+            },
+            {
+              "sign": "Low mood + thoughts of harm",
+              "urgency": "Immediately",
+              "action": "Mental health crisis",
+              "severity": "high"
+            },
+            {
+              "sign": "Sudden swelling of hands, face, feet",
+              "urgency": "Same day",
+              "action": "Preeclampsia sign",
+              "severity": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    "medications": {
+      "byCondition": [
+        {
+          "condition": "Allergies / Colds / Flu / Nasal Congestion",
+          "medications": [
+            { "drug": "Chlorpheniramine", "brand": "Chlor-Trimeton", "safetyLevel": "Generally Safe" },
+            { "drug": "Acetaminophen", "brand": "Tylenol, others", "safetyLevel": "Generally Safe" },
+            { "drug": "Cetirizine", "brand": "Zyrtec", "safetyLevel": "Generally Safe" },
+            { "drug": "Fexofenadine", "brand": "Allegra", "safetyLevel": "Generally Safe" },
+            { "drug": "Loratadine", "brand": "Claritin", "safetyLevel": "Generally Safe" },
+            { "drug": "Pseudoephedrine", "brand": "Sudafed, Claritin-D, others", "safetyLevel": "Use with Caution (esp. 1st trimester)" },
+            { "drug": "Dextromethorphan", "brand": "Robitussin, Vicks NyQuil, DayQuil", "safetyLevel": "Use with Caution" },
+            { "drug": "Phenylephrine", "brand": "Tylenol Allergy Multi-Symptom, others", "safetyLevel": "Avoid" }
+          ]
+        },
+        {
+          "condition": "Constipation",
+          "medications": [
+            { "drug": "Psyllium", "brand": "Metamucil", "safetyLevel": "Generally Safe" },
+            { "drug": "Glycerin suppositories", "brand": "Fleet", "safetyLevel": "Generally Safe" },
+            { "drug": "Docusate", "brand": "Colace, Surfak", "safetyLevel": "Generally Safe" },
+            { "drug": "Bisacodyl", "brand": "Dulcolax", "safetyLevel": "Use with Caution" },
+            { "drug": "Senna", "brand": "Senokot", "safetyLevel": "Use with Caution" },
+            { "drug": "Mineral Oil", "brand": "—", "safetyLevel": "Avoid" }
+          ]
+        },
+        {
+          "condition": "Heartburn",
+          "medications": [
+            { "drug": "Antacids", "brand": "Maalox, Tums", "safetyLevel": "Generally Safe" },
+            { "drug": "Famotidine", "brand": "Pepcid", "safetyLevel": "Generally Safe" },
+            { "drug": "Ranitidine", "brand": "Zantac", "safetyLevel": "Generally Safe" },
+            { "drug": "Cimetidine", "brand": "Tagamet HB", "safetyLevel": "Generally Safe" },
+            { "drug": "Aluminium or Aspirin combos", "brand": "Pepto-Bismol, Alka-Seltzer", "safetyLevel": "Avoid" }
+          ]
+        },
+        {
+          "condition": "Pain and Fever",
+          "medications": [
+            { "drug": "Acetaminophen", "brand": "Tylenol, others", "safetyLevel": "Generally Safe" },
+            { "drug": "Ibuprofen", "brand": "Advil, Motrin IB", "safetyLevel": "Use with Caution (1st/2nd trimester, ≤ 48 hrs)" },
+            { "drug": "Naproxen sodium", "brand": "Aleve", "safetyLevel": "Use with Caution (1st/2nd trimester, ≤ 48 hrs)" },
+            { "drug": "Aspirin", "brand": "—", "safetyLevel": "Avoid (unless directed)" }
+          ]
+        },
+        {
+          "condition": "Yeast Infection",
+          "medications": [
+            { "drug": "Clotrimazole", "brand": "Lotrimin AF, Mycelex", "safetyLevel": "Generally Safe" },
+            { "drug": "Miconazole", "brand": "Monistat 3, Monistat 7", "safetyLevel": "Generally Safe" },
+            { "drug": "Fluconazole", "brand": "Diflucan", "safetyLevel": "Avoid" }
+          ]
+        }
+      ]
+    },
+    "laborAndDelivery": {
+      "signsOfLabor": {
+        "waterBreaking": {
+          "description": "May break as a trickle or a gush",
+          "action": "Call your provider immediately",
+          "precautions": ["Avoid tampons and intercourse", "If fluid is green/yellow or foul-smelling, report immediately"]
+        },
+        "whenToCallProvider": {
+          "rule511": "Contractions 5 minutes apart, lasting 1 minute, for 1 hour",
+          "otherReasons": ["Water breaks", "Bleeding more than spotting", "Decreased fetal movement", "Unsure and want guidance"]
+        },
+        "goSoonerIf": ["Water breaks without contractions", "Contractions too intense to talk through", "Feeling pelvic pressure or urge to push", "Vaginal bleeding", "Previous fast labor"]
+      },
+      "stagesOfLabor": {
+        "stage1": {
+          "name": "Labor Begins",
+          "phases": {
+            "earlyLabor": {
+              "dilation": "0 to ~4 cm",
+              "contractions": "Mild to moderate",
+              "whatToDo": ["Rest and conserve energy", "Stay hydrated", "Use breathing techniques", "Walk or shower"]
+            },
+            "activeLabor": {
+              "dilation": "4 to 7 cm",
+              "contractions": "Intensify and become regular",
+              "whatToDo": ["Use comfort measures", "Change positions frequently", "Request pain relief if desired"]
+            },
+            "transition": {
+              "dilation": "8 to 10 cm",
+              "contractions": "Very strong and close together",
+              "whatToDo": ["Focus on breathing", "Use support person", "Know this is the shortest phase"]
+            }
+          }
+        },
+        "stage2": {
+          "name": "Pushing and Delivery",
+          "description": "Begins when cervix fully dilated (10 cm)",
+          "keyPoints": ["Crowning when baby's head visible", "May take several pushes after crowning", "Pausing during crowning helps prevent tears", "Back labor possible if baby posterior"],
+          "whatToDo": ["Push only when instructed", "Expect 1-2 hours if first baby", "Pause when asked during crowning", "Use mirror for motivation"]
+        },
+        "stage3": {
+          "name": "Delivery of Placenta",
+          "timing": "5-30 minutes after birth",
+          "whatHappens": ["Mild contractions resume", "Provider may massage abdomen", "Oxytocin may be given", "Placenta examined for completeness"],
+          "whatToDo": ["Push once more when instructed", "Allow provider to check for tears", "Ask to see placenta if interested"]
+        },
+        "immediatelyAfterBirth": {
+          "babycare": ["Still attached via umbilical cord", "Delayed cord clamping 30-60 seconds", "Placed on chest for skin-to-skin", "Apgar scores at 1 and 5 minutes", "ID band placed"],
+          "mothercare": ["Uterus massaged to prevent bleeding", "Any tears repaired with stitches", "Monitoring for complications"]
+        }
+      },
+      "painManagement": {
+        "naturalMethods": ["Breathing techniques", "Movement and position changes", "Massage", "Warm showers or baths", "Relaxation techniques"],
+        "commonAndSafe": [
+          {
+            "method": "Epidural Block",
+            "whenUsed": "Active labor, often through to delivery or C-section",
+            "howGiven": "Through a catheter in lower back",
+            "reliefLevel": "Strong, lower-body pain relief",
+            "impactOnBaby": "Safe; minimal effects",
+            "impactOnMother": "May lower blood pressure; may need catheter; numbness in lower body",
+            "notes": "Can be self-adjusted with a button; most widely used and trusted method"
+          },
+          {
+            "method": "Spinal Block",
+            "whenUsed": "Before C-section or during late labor if birth is imminent",
+            "howGiven": "One-time injection in lower back spinal fluid",
+            "reliefLevel": "Complete (chest down) for 1-2 hours",
+            "impactOnBaby": "Safe",
+            "impactOnMother": "Possible headache; bladder numbness; chest heaviness",
+            "notes": "Quick onset; often used in surgical settings"
+          },
+          {
+            "method": "Combined Spinal-Epidural (CSE)",
+            "whenUsed": "Early or active labor, especially if long labor expected",
+            "howGiven": "Single spinal injection + ongoing epidural through catheter",
+            "reliefLevel": "Fast-acting then continuous relief",
+            "impactOnBaby": "Safe",
+            "impactOnMother": "Mix of both spinal and epidural impacts",
+            "notes": "Best of both worlds; highly effective and increasingly used"
+          }
+        ],
+        "occasionallyUsed": [
+          {
+            "method": "Local Anesthetic (Perineal Area)",
+            "whenUsed": "During episiotomy or to repair vaginal tears after delivery",
+            "howGiven": "Injection at vaginal opening",
+            "reliefLevel": "Targeted, site-specific",
+            "impactOnBaby": "None",
+            "impactOnMother": "Rare allergic reactions; temporary numbness",
+            "notes": "Very localized; not for contraction pain"
+          },
+          {
+            "method": "Opioids",
+            "whenUsed": "Early labor; not close to delivery",
+            "howGiven": "Injection or IV (may be patient-controlled)",
+            "reliefLevel": "Moderate; reduces perception of pain",
+            "impactOnBaby": "Sleepiness, slower reflexes if born soon after dose",
+            "impactOnMother": "Drowsiness, mild respiratory depression",
+            "notes": "Timing important to avoid effects on baby"
+          }
+        ]
+      }
+    },
+    "cesareanDelivery": {
+      "definition": "A surgical procedure to deliver your baby through an incision in the abdomen",
+      "commonality": "About one-third of U.S. births",
+      "reasons": {
+        "laborRelated": [
+          "Labor not progressing - cervix doesn't fully dilate",
+          "Abnormal fetal heart rate - may signal baby isn't getting enough oxygen"
+        ],
+        "babyPosition": [
+          "Breech or transverse position - feet/buttocks first or lying sideways",
+          "Face-up or head tilted - may cause difficulty during vaginal delivery"
+        ],
+        "motherHealth": [
+          "Conditions like diabetes, high blood pressure, heart/lung disease",
+          "To prevent infection (e.g., active genital herpes)"
+        ],
+        "multipleBabies": [
+          "More likely with twins or higher-order multiples",
+          "Depends on baby positions, size, and gestational age"
+        ],
+        "placentaProblems": [
+          "Placenta previa - placenta covers the cervix",
+          "Placental abruption - placenta detaches too early"
+        ],
+        "cordIssues": [
+          "Cord prolapse - cord slips out first, cutting off oxygen",
+          "Cord around baby's neck or between head and pelvis"
+        ],
+        "babySize": [
+          "Very large baby or baby with medical condition (e.g., spina bifida)",
+          "More likely if mother has gestational diabetes or small pelvis"
+        ],
+        "previousCSection": "A repeat C-section may be needed, but VBAC sometimes possible"
+      },
+      "benefitsAndRisks": {
+        "maternalBenefits": {
+          "benefits": [
+            "May reduce short-term urinary incontinence",
+            "Avoids emergency C-section and its complications",
+            "Can help avoid long or difficult labor",
+            "Birth can be scheduled, offering peace of mind"
+          ],
+          "note": "These benefits are more evident in first-time C-sections"
+        },
+        "infantBenefits": {
+          "benefits": [
+            "May lower risk of birth injury in large babies",
+            "Less chance of inhaling meconium",
+            "Can reduce risk of infection transmission (e.g. HIV, herpes)"
+          ],
+          "note": "Especially relevant in high-risk pregnancies"
+        },
+        "maternalRisksShortTerm": {
+          "risks": [
+            "Longer hospital stay (usually 3 days vs. 2 for vaginal birth)",
+            "Higher chance of infection or surgical complications",
+            "May delay initial breastfeeding and bonding"
+          ],
+          "note": "Most are temporary and manageable"
+        },
+        "maternalRisksLongTerm": {
+          "risks": [
+            "Future pregnancies may have more complications (e.g. placenta previa)",
+            "Increased risk of uterine rupture with future vaginal delivery",
+            "Slightly higher risk of needing hysterectomy"
+          ],
+          "note": "Risk increases with multiple C-sections"
+        },
+        "fetalRisks": {
+          "risks": [
+            "Breathing issues after birth (transient tachypnea)",
+            "Risk of prematurity if due date isn't accurate",
+            "Very rare chance of accidental cuts"
+          ],
+          "note": "Risks are usually mild and treatable"
+        },
+        "insuranceAndCost": {
+          "considerations": [
+            "Elective C-section may not be fully covered by insurance",
+            "Generally more expensive than vaginal delivery"
+          ],
+          "recommendation": "Always confirm with your insurance provider"
+        },
+        "otherConsiderations": {
+          "benefits": "Provides predictability, which some parents find reassuring",
+          "limitations": "Doesn't fully eliminate the chance of complications",
+          "decision": "Best decided after discussion with your care provider"
+        }
+      },
+      "gentleReminder": [
+        "Every birth is unique — your care team will guide you toward the safest choice",
+        "Talk openly with your provider and stay flexible as plans may change",
+        "The goal is always a healthy mom and baby"
+      ]
+    },
+    "hospitalPreparation": {
+      "hospitalBag": {
+        "essentials": ["Phone with contraction timing app", "Phone charger", "Camera + charger", "Copy of birth plan", "Insurance card", "ID"],
+        "comfort": ["Socks or slippers", "Front-opening pajamas/nightgown", "Robe", "Nursing bra", "Large comfortable underwear", "Going-home outfit (midpregnancy size)"],
+        "toiletries": ["Lip balm", "Moisturizer", "Toothbrush and toothpaste", "Hairbrush", "Hair ties", "Cosmetics if desired"],
+        "babyItems": ["Baby clothes including hat", "Going-home outfit (weather appropriate)", "Baby blanket", "Car seat (installed)"],
+        "snacks": ["Light snacks for post-birth", "Water or juice as allowed"],
+        "partner": ["Change of clothes", "Toiletries", "Snacks", "Entertainment", "Phone charger"]
+      },
+      "whenToGo": {
+        "rule511": {
+          "description": "5-1-1 rule - common guideline for many full-term first-time moms",
+          "criteria": [
+            "Contractions are 5 minutes apart",
+            "Each contraction lasts 1 minute",
+            "This pattern continues for 1 hour"
+          ]
+        },
+        "goSoonerIf": [
+          "Your water breaks, even without contractions",
+          "Contractions are too intense to talk or walk through",
+          "You're feeling pelvic pressure or urge to push",
+          "There's vaginal bleeding (more than spotting)",
+          "You notice decreased fetal movement",
+          "You've had a previous fast labor"
+        ],
+        "whenToCall": [
+          "Contractions follow 5-1-1 rule",
+          "Water breaks",
+          "Bleeding more than light spotting",
+          "Decreased fetal movement",
+          "You're unsure and want guidance - it's always okay to check"
+        ]
+      },
+      "proTipsBeforeLaborStarts": [
+        "Keep your car's gas tank full",
+        "Do a practice drive to the hospital or birth center",
+        "Pack your hospital bag ahead of time",
+        "Arrange child care for other kids",
+        "Have a middle-of-the-night plan in place (rides, pet care, etc.)"
+      ],
+      "ifSentHome": {
+        "dontBeDiscouraged": "This is common in early labor",
+        "opportunities": [
+          "Great chance to rest, hydrate, eat light meals",
+          "Conserve energy for active labor",
+          "Monitor contractions and symptoms",
+          "Keep moving and stay upright to encourage progress"
+        ],
+        "mindset": "Think of it as a warm-up lap before the real race begins"
+      },
+      "whenInDoubt": [
+        "Always reach out to your care provider if:",
+        "You're unsure whether it's real labor",
+        "You're feeling anxious, uncomfortable, or unsafe",
+        "You want reassurance or advice"
+      ],
+      "preregistration": [
+        "Complete admission paperwork",
+        "Submit insurance information",
+        "Confirm what to bring and where to go",
+        "Save important phone numbers (OB, hospital, insurance) in phone"
+      ],
+      "birthPlan": {
+        "laborDeliveryPreferences": ["Concerns and excitement", "Support people present", "Natural pain relief preferences", "Medical pain relief preferences"],
+        "laborDetails": ["Hydration preferences", "Pushing positions", "Mirror to watch delivery", "Photos/video preferences"],
+        "afterBaby": ["Immediate skin-to-skin vs wrapped", "First bath timing", "Circumcision if applicable", "Feeding preferences", "Present for newborn exams"],
+        "flexibility": "Plans may change based on medical needs",
+        "providerDiscussion": [
+          "When and why medications (e.g. Pitocin) might be used",
+          "Their comfort with non-traditional birthing positions",
+          "Whether episiotomies are routine or only when needed",
+          "How and when to notify them once labor begins"
+        ]
+      },
+      "finalWaitingTasks": [
+        "Review and finalize your birth plan",
+        "Double-check your hospital bag",
+        "Do some light nesting (wash baby clothes, set up diaper station)",
+        "Coordinate with your support team",
+        "Practice relaxation and breathing techniques",
+        "Rest whenever you can",
+        "Make a 'first days at home' plan"
+      ]
+    },
+    "babyGear": {
+      "carSeat": {
+        "types": ["Infant-only", "Convertible", "3-in-1"],
+        "whenToUse": "From birth through booster age",
+        "keySafety": ["5-point harness", "Rear-facing for infants", "Side impact protection", "Front harness adjusters"],
+        "buyingTips": ["Easy to install", "Try in your car", "Washable covers", "Choose based on child size"],
+        "avoid": ["Front seat placement", "Expired/used seats without history", "Forward-facing too soon", "Using as crib"]
+      },
+      "crib": {
+        "types": ["Standard crib (non-drop side only)"],
+        "whenToUse": "From birth through toddler stage",
+        "keySafety": ["Slats ≤ 2⅜\" apart", "Firm mattress fits tightly", "Lead-free paint", "No missing/broken parts", "No corner posts > 1/16\""],
+        "buyingTips": ["Ensure meets 2011+ standards", "Comes with manual", "Newer is safer"],
+        "avoid": ["Loose bedding/toys", "Broken/used cribs not meeting standards", "Drop-side cribs"]
+      },
+      "babyCarrier": {
+        "types": ["Front carrier", "Sling", "Back carrier"],
+        "whenToUse": ["Front/slings: 0-15 lbs", "Back: older babies who sit upright"],
+        "keySafety": ["Padded head support", "Wide leg holes", "Secure straps", "Durable breathable fabric"],
+        "buyingTips": ["Choose adjustable models", "Cotton for breathability", "Allow inward/outward carry", "Look for storage pockets"],
+        "avoid": ["Slings too large", "Narrow tight leg holes", "If baby cannot be clearly seen"]
+      }
+    },
+    "generalGuidelines": {
+      "exercise": {
+        "recommendations": ["30 minutes daily exercise", "Can be broken into shorter sessions", "Walking, swimming, stationary cycling recommended", "Pilates and yoga (avoid heated classes)", "Strength training with provider approval"],
+        "guidelines": ["Start slowly if new to exercise", "Don't exercise to exhaustion", "Avoid floor exercises on back after first trimester"],
+        "monthlyExercises": "See exerciseByMonth section for specific routines"
+      },
+      "travel": {
+        "bestTime": "Second trimester generally best",
+        "carTravel": ["Wear lap belt below abdomen", "Diagonal strap between breasts", "Avoid seated position >2 hours at a time", "Limit total car time to 6 hours/day"],
+        "generalTips": ["Choose fastest mode of travel", "Stay hydrated", "Move frequently", "Have medical records handy"]
+      }
+    },
+    "preparingForLabor": {
+      "bodyPreparation": {
+        "kegelExercises": {
+          "why": ["Strengthens pelvic floor", "Reduces incontinence risk", "Aids recovery after birth"],
+          "how": ["Identify muscles (stop urine briefly once)", "Contract 5 sec, relax 5 sec", "Build to 10-second holds", "Goal: 3 sets of 10 daily", "Plus 3 sets of quick pulses"],
+          "avoid": "Don't flex abdomen/thighs/glutes, don't hold breath"
+        },
+        "perinealMassage": {
+          "when": "Last few weeks of pregnancy",
+          "why": ["May reduce tearing", "Might reduce episiotomy need"],
+          "how": ["Wash hands, trim nails", "Use mild lubricant", "Insert thumbs, press down and out", "Massage 8-10 minutes daily"],
+          "note": "Discomfort normal, stop if sharp pain"
+        }
+      },
+      "breathingTechniques": ["Slow breathing for early labor", "Quick breathing for transition", "Panting instead of pushing when directed"],
+      "relaxationMethods": {
+        "progressiveMuscleRelaxation": "Relax one muscle group at a time",
+        "touchRelaxation": "Partner applies gentle pressure to temples, shoulders, back",
+        "massage": "Back, shoulders, arms, legs with sweeping motions",
+        "guidedImagery": "Visualize peaceful scene, engage all senses",
+        "meditation": "Focus on breathing or calming word"
+      }
+    },
+    "commonQuestions": [
+      {
+        "question": "What if I have to go to the bathroom during labor?",
+        "answer": "Totally normal and encouraged",
+        "details": "Care team may help with bedpan or catheter if needed. Full bladder can slow labor."
+      },
+      {
+        "question": "Will my pubic hair be shaved?",
+        "answer": "Nope, not anymore",
+        "details": "Shaving used to be routine but isn't necessary now. No need to shave at home either."
+      },
+      {
+        "question": "Will I be exposed in front of strangers?",
+        "answer": "Only as needed, and always respectfully",
+        "details": "Vaginal exams and newborn checks may happen. You control who else is in the room. Medical staff are used to it."
+      },
+      {
+        "question": "What if I make loud noises?",
+        "answer": "Completely okay — and expected",
+        "details": "Grunting, moaning, or yelling is part of the process. No one will judge — it's a workout!"
+      },
+      {
+        "question": "Does labor hurt my baby?",
+        "answer": "Unlikely — babies are built for this",
+        "details": "Your baby's heartbeat may slow slightly, but it's normal. They're designed to handle the journey through the birth canal."
+      }
+    ]
+  }
+}
